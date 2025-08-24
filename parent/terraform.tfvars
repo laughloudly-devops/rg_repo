@@ -1,0 +1,2 @@
+name     = "ratneshautomzation"
+location = "eastus"
