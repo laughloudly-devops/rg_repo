@@ -1,7 +1,7 @@
 name: My CI Pipeline
 
 on:
-  workflow_dispatch:   # 👉 manual trigger enable karega
+  workflow_dispatch:   
 
 jobs:
   build:
@@ -9,4 +9,4 @@ jobs:
 
     steps:             # ⚡ yeh line missing thi
       - name: Run a script
-        run: echo "Hello, pipeline manually triggered!"
+        run: echo "oye seekh gaya main t ye github action runner bhi "
