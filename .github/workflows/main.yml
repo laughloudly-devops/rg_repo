@@ -10,3 +10,25 @@ jobs:
     steps:             # ⚡ yeh line missing thi
       - name: Run a script
         run: echo "oye seekh gaya main t ye github action runner bhi "
+
+      - name: Checkout
+        uses: actions/checkout@v5.0.0
+        with:
+        
+
+      #####################################
+
+      - name: Azure Login
+        uses: Azure/login@v2.3.0
+        with:
+        client-id: 9d1832dc-c162-46ab-b41b-6baf847f5f2e
+        
+        tenant-id: c1458e86-22a3-4b4c-b4af-89ecd5384a8f
+      
+        subscription-id: 5e4fafbb-ef69-4e17-8835-68030d81f758
+
+     
+      
+  
+    
+              
